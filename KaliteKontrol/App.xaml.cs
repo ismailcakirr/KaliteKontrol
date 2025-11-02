@@ -62,6 +62,8 @@ namespace KaliteKontrol
 
             services.AddSingleton<MainWindow>();
             services.AddTransient<BarkodView>();
+            services.AddTransient<AdimListesiView>();
+            services.AddTransient<KameraView>();
 
             var conMsSqlServer = configuration.GetConnectionString("conMsSql");
 
@@ -79,8 +81,13 @@ namespace KaliteKontrol
 
             services.AddTransient<MainViewModel>();
             services.AddTransient<BarkodViewModel>();
+            services.AddTransient<AdimListesiViewModel>();
+            services.AddTransient<KameraViewModel>();
 
             services.AddHostedService<SerialPortService>();
+            services.AddHostedService<SQLService>();
+            services.AddHostedService<CameraService>();
+            services.AddHostedService<SiemensS7Service>(); 
 
         }
                                                     

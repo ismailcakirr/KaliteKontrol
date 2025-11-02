@@ -1,10 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Extensions.Hosting;
+using System.IO;
+using System.Text.Json;
 
 namespace KaliteKontrol.ModelsDb
 {
@@ -18,7 +16,6 @@ namespace KaliteKontrol.ModelsDb
             // Tablolar yoksa oluştur
             context.Database.Migrate();
 
-            // Yetki tablosunu seed et
             if (!context.Yetki.Any())
             {
                 context.Yetki.AddRange(
@@ -32,10 +29,43 @@ namespace KaliteKontrol.ModelsDb
             if (!context.Kullanicilar.Any())
             {
                 context.Kullanicilar.AddRange(
-                    new Kullanicilar { KullaniciAdi = "Admin",Sifre="1234*-", YetkiId = 1 },
-                    new Kullanicilar { KullaniciAdi = "Operatör1",Sifre="1234", YetkiId = 3 }
+                    new Kullanicilar { KullaniciAdi = "Admin", Sifre = "1234*-", YetkiId = 1 },
+                    new Kullanicilar { KullaniciAdi = "Operatör1", Sifre = "1234", YetkiId = 3 }
                 );
                 context.SaveChanges();
+            }
+            if (!context.ISLEMLER.Any())
+            {
+                var jsonPath = Path.Combine(AppContext.BaseDirectory, "Data", "islemler.json");
+
+                if (!File.Exists(jsonPath))
+                    throw new FileNotFoundException($"JSON dosyası bulunamadı: {jsonPath}");
+
+                var json = File.ReadAllText(jsonPath);
+                var islemler = JsonSerializer.Deserialize<List<ISLEMLER>>(json);
+
+                if (islemler != null && islemler.Count > 0)
+                {
+                    context.ISLEMLER.AddRange(islemler);
+                    context.SaveChanges();
+                }
+            }
+
+            if (!context.ADIM.Any())
+            {
+                var jsonPath = Path.Combine(AppContext.BaseDirectory, "Data", "adimlar.json");
+
+                if (!File.Exists(jsonPath))
+                    throw new FileNotFoundException($"JSON dosyası bulunamadı: {jsonPath}");
+
+                var json = File.ReadAllText(jsonPath);
+                var adimlar = JsonSerializer.Deserialize<List<ADIM>>(json);
+
+                if (adimlar != null && adimlar.Count > 0)
+                {
+                    context.ADIM.AddRange(adimlar);
+                    context.SaveChanges();
+                }
             }
         }
     }

@@ -1,0 +1,1246 @@
+[
+  {
+    "ISLEM_NO": 0,
+    "ISLEM_ADI": "Yok"
+  },
+  {
+    "ISLEM_NO": 1,
+    "ISLEM_ADI": "Switch Barkodu"
+  },
+  {
+    "ISLEM_NO": 2,
+    "ISLEM_ADI": "Gaz Valfi Barkodu"
+  },
+  {
+    "ISLEM_NO": 3,
+    "ISLEM_ADI": "Fan Barkod Okutma"
+  },
+  {
+    "ISLEM_NO": 4,
+    "ISLEM_ADI": "Barkod Okutma 4"
+  },
+  {
+    "ISLEM_NO": 5,
+    "ISLEM_ADI": "Barkod Okutma 5"
+  },
+  {
+    "ISLEM_NO": 6,
+    "ISLEM_ADI": "Barkod Okutma 6"
+  },
+  {
+    "ISLEM_NO": 7,
+    "ISLEM_ADI": "Barkod Okutma 7"
+  },
+  {
+    "ISLEM_NO": 8,
+    "ISLEM_ADI": "Barkod Okutma 8"
+  },
+  {
+    "ISLEM_NO": 9,
+    "ISLEM_ADI": "Barkod Okutma 9"
+  },
+  {
+    "ISLEM_NO": 10,
+    "ISLEM_ADI": "Gaz Valfi Barkodu"
+  },
+  {
+    "ISLEM_NO": 11,
+    "ISLEM_ADI": "Pompa Grubu Barkodu"
+  },
+  {
+    "ISLEM_NO": 12,
+    "ISLEM_ADI": "Hidroblok Giriş Barkodu"
+  },
+  {
+    "ISLEM_NO": 13,
+    "ISLEM_ADI": "Hidroblok Çıkış barkodu"
+  },
+  {
+    "ISLEM_NO": 14,
+    "ISLEM_ADI": "Manometre Barkodu"
+  },
+  {
+    "ISLEM_NO": 15,
+    "ISLEM_ADI": "Barkod Okutma 15"
+  },
+  {
+    "ISLEM_NO": 16,
+    "ISLEM_ADI": "Barkod Okutma 16"
+  },
+  {
+    "ISLEM_NO": 17,
+    "ISLEM_ADI": "Barkod Okutma 17"
+  },
+  {
+    "ISLEM_NO": 18,
+    "ISLEM_ADI": "Barkod Okutma 18"
+  },
+  {
+    "ISLEM_NO": 19,
+    "ISLEM_ADI": "Barkod Okutma 19"
+  },
+  {
+    "ISLEM_NO": 20,
+    "ISLEM_ADI": "Barkod Okutma 20"
+  },
+  {
+    "ISLEM_NO": 21,
+    "ISLEM_ADI": "Barkod Okutma 21"
+  },
+  {
+    "ISLEM_NO": 22,
+    "ISLEM_ADI": "Barkod Okutma 22"
+  },
+  {
+    "ISLEM_NO": 23,
+    "ISLEM_ADI": "Barkod Okutma 23"
+  },
+  {
+    "ISLEM_NO": 24,
+    "ISLEM_ADI": "Barkod Okutma 24"
+  },
+  {
+    "ISLEM_NO": 25,
+    "ISLEM_ADI": "Barkod Okutma 25"
+  },
+  {
+    "ISLEM_NO": 26,
+    "ISLEM_ADI": "Barkod Okutma 26"
+  },
+  {
+    "ISLEM_NO": 27,
+    "ISLEM_ADI": "Barkod Okutma 27"
+  },
+  {
+    "ISLEM_NO": 28,
+    "ISLEM_ADI": "Barkod Okutma 28"
+  },
+  {
+    "ISLEM_NO": 29,
+    "ISLEM_ADI": "Barkod Okutma 29"
+  },
+  {
+    "ISLEM_NO": 30,
+    "ISLEM_ADI": "Barkod Okutma 30"
+  },
+  {
+    "ISLEM_NO": 31,
+    "ISLEM_ADI": "Barkod Okutma 31"
+  },
+  {
+    "ISLEM_NO": 32,
+    "ISLEM_ADI": "Barkod Okutma 32"
+  },
+  {
+    "ISLEM_NO": 33,
+    "ISLEM_ADI": "Barkod Okutma 33"
+  },
+  {
+    "ISLEM_NO": 34,
+    "ISLEM_ADI": "Barkod Okutma 34"
+  },
+  {
+    "ISLEM_NO": 35,
+    "ISLEM_ADI": "Barkod Okutma 35"
+  },
+  {
+    "ISLEM_NO": 36,
+    "ISLEM_ADI": "Barkod Okutma 36"
+  },
+  {
+    "ISLEM_NO": 37,
+    "ISLEM_ADI": "Barkod Okutma 37"
+  },
+  {
+    "ISLEM_NO": 38,
+    "ISLEM_ADI": "Barkod Okutma 38"
+  },
+  {
+    "ISLEM_NO": 39,
+    "ISLEM_ADI": "Barkod Okutma 39"
+  },
+  {
+    "ISLEM_NO": 40,
+    "ISLEM_ADI": "Barkod Okutma 40"
+  },
+  {
+    "ISLEM_NO": 41,
+    "ISLEM_ADI": "Barkod Okutma 41"
+  },
+  {
+    "ISLEM_NO": 42,
+    "ISLEM_ADI": "Barkod Okutma 42"
+  },
+  {
+    "ISLEM_NO": 43,
+    "ISLEM_ADI": "Barkod Okutma 43"
+  },
+  {
+    "ISLEM_NO": 44,
+    "ISLEM_ADI": "Barkod Okutma 44"
+  },
+  {
+    "ISLEM_NO": 45,
+    "ISLEM_ADI": "Barkod Okutma 45"
+  },
+  {
+    "ISLEM_NO": 46,
+    "ISLEM_ADI": "Barkod Okutma 46"
+  },
+  {
+    "ISLEM_NO": 47,
+    "ISLEM_ADI": "Barkod Okutma 47"
+  },
+  {
+    "ISLEM_NO": 48,
+    "ISLEM_ADI": "Barkod Okutma 48"
+  },
+  {
+    "ISLEM_NO": 49,
+    "ISLEM_ADI": "Barkod Okutma 49"
+  },
+  {
+    "ISLEM_NO": 50,
+    "ISLEM_ADI": "Barkod Okutma 50"
+  },
+  {
+    "ISLEM_NO": 51,
+    "ISLEM_ADI": "Gaz Valfi Montajı"
+  },
+  {
+    "ISLEM_NO": 52,
+    "ISLEM_ADI": "Pompa Montajı"
+  },
+  {
+    "ISLEM_NO": 53,
+    "ISLEM_ADI": "Hidroblok Giriş Çıkış Manifold Montajı"
+  },
+  {
+    "ISLEM_NO": 54,
+    "ISLEM_ADI": "Manometre Montajı"
+  },
+  {
+    "ISLEM_NO": 55,
+    "ISLEM_ADI": "Sıkma İşlemi 5"
+  },
+  {
+    "ISLEM_NO": 56,
+    "ISLEM_ADI": "Sıkma İşlemi 6"
+  },
+  {
+    "ISLEM_NO": 57,
+    "ISLEM_ADI": "Sıkma İşlemi 7"
+  },
+  {
+    "ISLEM_NO": 58,
+    "ISLEM_ADI": "Sıkma İşlemi 8"
+  },
+  {
+    "ISLEM_NO": 59,
+    "ISLEM_ADI": "Sıkma İşlemi 9"
+  },
+  {
+    "ISLEM_NO": 60,
+    "ISLEM_ADI": "Sıkma İşlemi 10"
+  },
+  {
+    "ISLEM_NO": 61,
+    "ISLEM_ADI": "Sıkma İşlemi 11"
+  },
+  {
+    "ISLEM_NO": 62,
+    "ISLEM_ADI": "Sıkma İşlemi 12"
+  },
+  {
+    "ISLEM_NO": 63,
+    "ISLEM_ADI": "Sıkma İşlemi 13"
+  },
+  {
+    "ISLEM_NO": 64,
+    "ISLEM_ADI": "Sıkma İşlemi 14"
+  },
+  {
+    "ISLEM_NO": 65,
+    "ISLEM_ADI": "Sıkma İşlemi 15"
+  },
+  {
+    "ISLEM_NO": 66,
+    "ISLEM_ADI": "Sıkma İşlemi 16"
+  },
+  {
+    "ISLEM_NO": 67,
+    "ISLEM_ADI": "Sıkma İşlemi 17"
+  },
+  {
+    "ISLEM_NO": 68,
+    "ISLEM_ADI": "Sıkma İşlemi 18"
+  },
+  {
+    "ISLEM_NO": 69,
+    "ISLEM_ADI": "Sıkma İşlemi 19"
+  },
+  {
+    "ISLEM_NO": 70,
+    "ISLEM_ADI": "Sıkma İşlemi 20"
+  },
+  {
+    "ISLEM_NO": 71,
+    "ISLEM_ADI": "Sıkma İşlemi 21"
+  },
+  {
+    "ISLEM_NO": 72,
+    "ISLEM_ADI": "Sıkma İşlemi 22"
+  },
+  {
+    "ISLEM_NO": 73,
+    "ISLEM_ADI": "Sıkma İşlemi 23"
+  },
+  {
+    "ISLEM_NO": 74,
+    "ISLEM_ADI": "Sıkma İşlemi 24"
+  },
+  {
+    "ISLEM_NO": 75,
+    "ISLEM_ADI": "Sıkma İşlemi 25"
+  },
+  {
+    "ISLEM_NO": 76,
+    "ISLEM_ADI": "Sıkma İşlemi 26"
+  },
+  {
+    "ISLEM_NO": 77,
+    "ISLEM_ADI": "Sıkma İşlemi 27"
+  },
+  {
+    "ISLEM_NO": 78,
+    "ISLEM_ADI": "Sıkma İşlemi 28"
+  },
+  {
+    "ISLEM_NO": 79,
+    "ISLEM_ADI": "Sıkma İşlemi 29"
+  },
+  {
+    "ISLEM_NO": 80,
+    "ISLEM_ADI": "Sıkma İşlemi 30"
+  },
+  {
+    "ISLEM_NO": 81,
+    "ISLEM_ADI": "Sıkma İşlemi 31"
+  },
+  {
+    "ISLEM_NO": 82,
+    "ISLEM_ADI": "Sıkma İşlemi 32"
+  },
+  {
+    "ISLEM_NO": 83,
+    "ISLEM_ADI": "Sıkma İşlemi 33"
+  },
+  {
+    "ISLEM_NO": 84,
+    "ISLEM_ADI": "Sıkma İşlemi 34"
+  },
+  {
+    "ISLEM_NO": 85,
+    "ISLEM_ADI": "Sıkma İşlemi 35"
+  },
+  {
+    "ISLEM_NO": 86,
+    "ISLEM_ADI": "Sıkma İşlemi 36"
+  },
+  {
+    "ISLEM_NO": 87,
+    "ISLEM_ADI": "Sıkma İşlemi 37"
+  },
+  {
+    "ISLEM_NO": 88,
+    "ISLEM_ADI": "Sıkma İşlemi 38"
+  },
+  {
+    "ISLEM_NO": 89,
+    "ISLEM_ADI": "Sıkma İşlemi 39"
+  },
+  {
+    "ISLEM_NO": 90,
+    "ISLEM_ADI": "Sıkma İşlemi 40"
+  },
+  {
+    "ISLEM_NO": 91,
+    "ISLEM_ADI": "Sıkma İşlemi 41"
+  },
+  {
+    "ISLEM_NO": 92,
+    "ISLEM_ADI": "Sıkma İşlemi 42"
+  },
+  {
+    "ISLEM_NO": 93,
+    "ISLEM_ADI": "Sıkma İşlemi 43"
+  },
+  {
+    "ISLEM_NO": 94,
+    "ISLEM_ADI": "Sıkma İşlemi 44"
+  },
+  {
+    "ISLEM_NO": 95,
+    "ISLEM_ADI": "Sıkma İşlemi 45"
+  },
+  {
+    "ISLEM_NO": 96,
+    "ISLEM_ADI": "Sıkma İşlemi 46"
+  },
+  {
+    "ISLEM_NO": 97,
+    "ISLEM_ADI": "Sıkma İşlemi 47"
+  },
+  {
+    "ISLEM_NO": 98,
+    "ISLEM_ADI": "Sıkma İşlemi 48"
+  },
+  {
+    "ISLEM_NO": 99,
+    "ISLEM_ADI": "Sıkma İşlemi 49"
+  },
+  {
+    "ISLEM_NO": 100,
+    "ISLEM_ADI": "Sıkma İşlemi 50"
+  },
+  {
+    "ISLEM_NO": 101,
+    "ISLEM_ADI": "Test 1"
+  },
+  {
+    "ISLEM_NO": 102,
+    "ISLEM_ADI": "Test 2"
+  },
+  {
+    "ISLEM_NO": 103,
+    "ISLEM_ADI": "Test 3"
+  },
+  {
+    "ISLEM_NO": 104,
+    "ISLEM_ADI": "Test 4"
+  },
+  {
+    "ISLEM_NO": 105,
+    "ISLEM_ADI": "Test 5"
+  },
+  {
+    "ISLEM_NO": 106,
+    "ISLEM_ADI": "Test 6"
+  },
+  {
+    "ISLEM_NO": 107,
+    "ISLEM_ADI": "Test 7"
+  },
+  {
+    "ISLEM_NO": 108,
+    "ISLEM_ADI": "Test 8"
+  },
+  {
+    "ISLEM_NO": 109,
+    "ISLEM_ADI": "Test 9"
+  },
+  {
+    "ISLEM_NO": 110,
+    "ISLEM_ADI": "Test 10"
+  },
+  {
+    "ISLEM_NO": 111,
+    "ISLEM_ADI": "Test 11"
+  },
+  {
+    "ISLEM_NO": 112,
+    "ISLEM_ADI": "Test 12"
+  },
+  {
+    "ISLEM_NO": 113,
+    "ISLEM_ADI": "Test 13"
+  },
+  {
+    "ISLEM_NO": 114,
+    "ISLEM_ADI": "Test 14"
+  },
+  {
+    "ISLEM_NO": 115,
+    "ISLEM_ADI": "Test 15"
+  },
+  {
+    "ISLEM_NO": 116,
+    "ISLEM_ADI": "Test 16"
+  },
+  {
+    "ISLEM_NO": 117,
+    "ISLEM_ADI": "Test 17"
+  },
+  {
+    "ISLEM_NO": 118,
+    "ISLEM_ADI": "Test 18"
+  },
+  {
+    "ISLEM_NO": 119,
+    "ISLEM_ADI": "Test 19"
+  },
+  {
+    "ISLEM_NO": 120,
+    "ISLEM_ADI": "Test 20"
+  },
+  {
+    "ISLEM_NO": 121,
+    "ISLEM_ADI": "Test 21"
+  },
+  {
+    "ISLEM_NO": 122,
+    "ISLEM_ADI": "Test 22"
+  },
+  {
+    "ISLEM_NO": 123,
+    "ISLEM_ADI": "Test 23"
+  },
+  {
+    "ISLEM_NO": 124,
+    "ISLEM_ADI": "Test 24"
+  },
+  {
+    "ISLEM_NO": 125,
+    "ISLEM_ADI": "Test 25"
+  },
+  {
+    "ISLEM_NO": 126,
+    "ISLEM_ADI": "Test 26"
+  },
+  {
+    "ISLEM_NO": 127,
+    "ISLEM_ADI": "Test 27"
+  },
+  {
+    "ISLEM_NO": 128,
+    "ISLEM_ADI": "Test 28"
+  },
+  {
+    "ISLEM_NO": 129,
+    "ISLEM_ADI": "Test 29"
+  },
+  {
+    "ISLEM_NO": 130,
+    "ISLEM_ADI": "Test 30"
+  },
+  {
+    "ISLEM_NO": 131,
+    "ISLEM_ADI": "Test 31"
+  },
+  {
+    "ISLEM_NO": 132,
+    "ISLEM_ADI": "Test 32"
+  },
+  {
+    "ISLEM_NO": 133,
+    "ISLEM_ADI": "Test 33"
+  },
+  {
+    "ISLEM_NO": 134,
+    "ISLEM_ADI": "Test 34"
+  },
+  {
+    "ISLEM_NO": 135,
+    "ISLEM_ADI": "Test 35"
+  },
+  {
+    "ISLEM_NO": 136,
+    "ISLEM_ADI": "Test 36"
+  },
+  {
+    "ISLEM_NO": 137,
+    "ISLEM_ADI": "Test 37"
+  },
+  {
+    "ISLEM_NO": 138,
+    "ISLEM_ADI": "Test 38"
+  },
+  {
+    "ISLEM_NO": 139,
+    "ISLEM_ADI": "Test 39"
+  },
+  {
+    "ISLEM_NO": 140,
+    "ISLEM_ADI": "Test 40"
+  },
+  {
+    "ISLEM_NO": 141,
+    "ISLEM_ADI": "Test 41"
+  },
+  {
+    "ISLEM_NO": 142,
+    "ISLEM_ADI": "Test 42"
+  },
+  {
+    "ISLEM_NO": 143,
+    "ISLEM_ADI": "Test 43"
+  },
+  {
+    "ISLEM_NO": 144,
+    "ISLEM_ADI": "Test 44"
+  },
+  {
+    "ISLEM_NO": 145,
+    "ISLEM_ADI": "Test 45"
+  },
+  {
+    "ISLEM_NO": 146,
+    "ISLEM_ADI": "Test 46"
+  },
+  {
+    "ISLEM_NO": 147,
+    "ISLEM_ADI": "Test 47"
+  },
+  {
+    "ISLEM_NO": 148,
+    "ISLEM_ADI": "Test 48"
+  },
+  {
+    "ISLEM_NO": 149,
+    "ISLEM_ADI": "Test 49"
+  },
+  {
+    "ISLEM_NO": 150,
+    "ISLEM_ADI": "Test 50"
+  },
+  {
+    "ISLEM_NO": 151,
+    "ISLEM_ADI": "Onaylı İşlem 1"
+  },
+  {
+    "ISLEM_NO": 152,
+    "ISLEM_ADI": "Manometre Montajı"
+  },
+  {
+    "ISLEM_NO": 153,
+    "ISLEM_ADI": "Yanma Odası Montajı"
+  },
+  {
+    "ISLEM_NO": 154,
+    "ISLEM_ADI": "Brulör Montajı"
+  },
+  {
+    "ISLEM_NO": 155,
+    "ISLEM_ADI": "Giriş Borusu Montaj"
+  },
+  {
+    "ISLEM_NO": 156,
+    "ISLEM_ADI": "Çıkış Borusu Montaj"
+  },
+  {
+    "ISLEM_NO": 157,
+    "ISLEM_ADI": "Gaz Borusu Montaj"
+  },
+  {
+    "ISLEM_NO": 158,
+    "ISLEM_ADI": "Huni Yerleştirme"
+  },
+  {
+    "ISLEM_NO": 159,
+    "ISLEM_ADI": "Limit Termostat Montaj"
+  },
+  {
+    "ISLEM_NO": 160,
+    "ISLEM_ADI": "Gaz Valfi Silikon Hortum Montaj"
+  },
+  {
+    "ISLEM_NO": 161,
+    "ISLEM_ADI": "Presostat Silikon Hortum Montaj"
+  },
+  {
+    "ISLEM_NO": 162,
+    "ISLEM_ADI": "Ateşleme Elektrotu Huni Montaj"
+  },
+  {
+    "ISLEM_NO": 163,
+    "ISLEM_ADI": "Pompa Kablosu Montaj"
+  },
+  {
+    "ISLEM_NO": 164,
+    "ISLEM_ADI": "Gaz Valfi Kablosunu Tak!"
+  },
+  {
+    "ISLEM_NO": 165,
+    "ISLEM_ADI": "3 Yollu Vana Motoru Kablo Tak"
+  },
+  {
+    "ISLEM_NO": 166,
+    "ISLEM_ADI": "Basınç Switchi Kablo Tak"
+  },
+  {
+    "ISLEM_NO": 167,
+    "ISLEM_ADI": "Gaz Valfi Modülasyon Kablo Tak"
+  },
+  {
+    "ISLEM_NO": 168,
+    "ISLEM_ADI": "NTC Yüzey Sensör Kablo Tak"
+  },
+  {
+    "ISLEM_NO": 169,
+    "ISLEM_ADI": "NTC Daldırma Sensör Kablo Tak"
+  },
+  {
+    "ISLEM_NO": 170,
+    "ISLEM_ADI": "Presostat Kablo Tak"
+  },
+  {
+    "ISLEM_NO": 171,
+    "ISLEM_ADI": "Fan Kablo Montaj"
+  },
+  {
+    "ISLEM_NO": 172,
+    "ISLEM_ADI": "Limit Termostat Kablo Montaj"
+  },
+  {
+    "ISLEM_NO": 173,
+    "ISLEM_ADI": "Kablo Düzenleme ve Kablo Klipsi Montaj"
+  },
+  {
+    "ISLEM_NO": 174,
+    "ISLEM_ADI": "Genleşme Tankı Yerleştir"
+  },
+  {
+    "ISLEM_NO": 175,
+    "ISLEM_ADI": "Genleşme Tankı Tutucu"
+  },
+  {
+    "ISLEM_NO": 176,
+    "ISLEM_ADI": "Yan Kapak Montaj"
+  },
+  {
+    "ISLEM_NO": 177,
+    "ISLEM_ADI": "H Form Montaj"
+  },
+  {
+    "ISLEM_NO": 178,
+    "ISLEM_ADI": "Yan Kapat Etiket Yapıştırma"
+  },
+  {
+    "ISLEM_NO": 179,
+    "ISLEM_ADI": "Ön Kapak Montaj"
+  },
+  {
+    "ISLEM_NO": 180,
+    "ISLEM_ADI": "Katalog Aksesuar Poşeti Hazırla"
+  },
+  {
+    "ISLEM_NO": 181,
+    "ISLEM_ADI": "Kombi Temizleme"
+  },
+  {
+    "ISLEM_NO": 182,
+    "ISLEM_ADI": "Kombi Hava Tutma İşlemi"
+  },
+  {
+    "ISLEM_NO": 183,
+    "ISLEM_ADI": "Hidroblok Nipel Kapakları Montaj"
+  },
+  {
+    "ISLEM_NO": 184,
+    "ISLEM_ADI": "Güç Kablosu Düzenleme"
+  },
+  {
+    "ISLEM_NO": 185,
+    "ISLEM_ADI": "Onaylı İşlem 35"
+  },
+  {
+    "ISLEM_NO": 186,
+    "ISLEM_ADI": "Onaylı İşlem 36"
+  },
+  {
+    "ISLEM_NO": 187,
+    "ISLEM_ADI": "Onaylı İşlem 37"
+  },
+  {
+    "ISLEM_NO": 188,
+    "ISLEM_ADI": "Onaylı İşlem 38"
+  },
+  {
+    "ISLEM_NO": 189,
+    "ISLEM_ADI": "Onaylı İşlem 39"
+  },
+  {
+    "ISLEM_NO": 190,
+    "ISLEM_ADI": "Onaylı İşlem 40"
+  },
+  {
+    "ISLEM_NO": 191,
+    "ISLEM_ADI": "Onaylı İşlem 41"
+  },
+  {
+    "ISLEM_NO": 192,
+    "ISLEM_ADI": "Onaylı İşlem 42"
+  },
+  {
+    "ISLEM_NO": 193,
+    "ISLEM_ADI": "Onaylı İşlem 43"
+  },
+  {
+    "ISLEM_NO": 194,
+    "ISLEM_ADI": "Onaylı İşlem 44"
+  },
+  {
+    "ISLEM_NO": 195,
+    "ISLEM_ADI": "Onaylı İşlem 45"
+  },
+  {
+    "ISLEM_NO": 196,
+    "ISLEM_ADI": "Onaylı İşlem 46"
+  },
+  {
+    "ISLEM_NO": 197,
+    "ISLEM_ADI": "Onaylı İşlem 47"
+  },
+  {
+    "ISLEM_NO": 198,
+    "ISLEM_ADI": "Onaylı İşlem 48"
+  },
+  {
+    "ISLEM_NO": 199,
+    "ISLEM_ADI": "Onaylı İşlem 49"
+  },
+  {
+    "ISLEM_NO": 200,
+    "ISLEM_ADI": "Onaylı İşlem 50"
+  },
+  {
+    "ISLEM_NO": 201,
+    "ISLEM_ADI": "Gri Etiket"
+  },
+  {
+    "ISLEM_NO": 202,
+    "ISLEM_ADI": "Kutu Etiketi"
+  },
+  {
+    "ISLEM_NO": 203,
+    "ISLEM_ADI": "Kalite Belgesi"
+  },
+  {
+    "ISLEM_NO": 204,
+    "ISLEM_ADI": "Harici 4"
+  },
+  {
+    "ISLEM_NO": 205,
+    "ISLEM_ADI": "Harici 5"
+  },
+  {
+    "ISLEM_NO": 206,
+    "ISLEM_ADI": "Harici 6"
+  },
+  {
+    "ISLEM_NO": 207,
+    "ISLEM_ADI": "Harici 7"
+  },
+  {
+    "ISLEM_NO": 208,
+    "ISLEM_ADI": "Harici 8"
+  },
+  {
+    "ISLEM_NO": 209,
+    "ISLEM_ADI": "Harici 9"
+  },
+  {
+    "ISLEM_NO": 210,
+    "ISLEM_ADI": "Harici 10"
+  },
+  {
+    "ISLEM_NO": 211,
+    "ISLEM_ADI": "Harici 11"
+  },
+  {
+    "ISLEM_NO": 212,
+    "ISLEM_ADI": "Harici 12"
+  },
+  {
+    "ISLEM_NO": 213,
+    "ISLEM_ADI": "Harici 13"
+  },
+  {
+    "ISLEM_NO": 214,
+    "ISLEM_ADI": "Harici 14"
+  },
+  {
+    "ISLEM_NO": 215,
+    "ISLEM_ADI": "Harici 15"
+  },
+  {
+    "ISLEM_NO": 216,
+    "ISLEM_ADI": "Harici 16"
+  },
+  {
+    "ISLEM_NO": 217,
+    "ISLEM_ADI": "Harici 17"
+  },
+  {
+    "ISLEM_NO": 218,
+    "ISLEM_ADI": "Harici 18"
+  },
+  {
+    "ISLEM_NO": 219,
+    "ISLEM_ADI": "Harici 19"
+  },
+  {
+    "ISLEM_NO": 220,
+    "ISLEM_ADI": "Harici 20"
+  },
+  {
+    "ISLEM_NO": 221,
+    "ISLEM_ADI": "Harici 21"
+  },
+  {
+    "ISLEM_NO": 222,
+    "ISLEM_ADI": "Harici 22"
+  },
+  {
+    "ISLEM_NO": 223,
+    "ISLEM_ADI": "Harici 23"
+  },
+  {
+    "ISLEM_NO": 224,
+    "ISLEM_ADI": "Harici 24"
+  },
+  {
+    "ISLEM_NO": 225,
+    "ISLEM_ADI": "Harici 25"
+  },
+  {
+    "ISLEM_NO": 226,
+    "ISLEM_ADI": "Harici 26"
+  },
+  {
+    "ISLEM_NO": 227,
+    "ISLEM_ADI": "Harici 27"
+  },
+  {
+    "ISLEM_NO": 228,
+    "ISLEM_ADI": "Harici 28"
+  },
+  {
+    "ISLEM_NO": 229,
+    "ISLEM_ADI": "Harici 29"
+  },
+  {
+    "ISLEM_NO": 230,
+    "ISLEM_ADI": "Harici 30"
+  },
+  {
+    "ISLEM_NO": 231,
+    "ISLEM_ADI": "Harici 31"
+  },
+  {
+    "ISLEM_NO": 232,
+    "ISLEM_ADI": "Harici 32"
+  },
+  {
+    "ISLEM_NO": 233,
+    "ISLEM_ADI": "Harici 33"
+  },
+  {
+    "ISLEM_NO": 234,
+    "ISLEM_ADI": "Harici 34"
+  },
+  {
+    "ISLEM_NO": 235,
+    "ISLEM_ADI": "Harici 35"
+  },
+  {
+    "ISLEM_NO": 236,
+    "ISLEM_ADI": "Harici 36"
+  },
+  {
+    "ISLEM_NO": 237,
+    "ISLEM_ADI": "Harici 37"
+  },
+  {
+    "ISLEM_NO": 238,
+    "ISLEM_ADI": "Harici 38"
+  },
+  {
+    "ISLEM_NO": 239,
+    "ISLEM_ADI": "Harici 39"
+  },
+  {
+    "ISLEM_NO": 240,
+    "ISLEM_ADI": "Harici 40"
+  },
+  {
+    "ISLEM_NO": 241,
+    "ISLEM_ADI": "Harici 41"
+  },
+  {
+    "ISLEM_NO": 242,
+    "ISLEM_ADI": "Harici 42"
+  },
+  {
+    "ISLEM_NO": 243,
+    "ISLEM_ADI": "Harici 43"
+  },
+  {
+    "ISLEM_NO": 244,
+    "ISLEM_ADI": "Harici 44"
+  },
+  {
+    "ISLEM_NO": 245,
+    "ISLEM_ADI": "Harici 45"
+  },
+  {
+    "ISLEM_NO": 246,
+    "ISLEM_ADI": "Harici 46"
+  },
+  {
+    "ISLEM_NO": 247,
+    "ISLEM_ADI": "Harici 47"
+  },
+  {
+    "ISLEM_NO": 248,
+    "ISLEM_ADI": "Harici 48"
+  },
+  {
+    "ISLEM_NO": 249,
+    "ISLEM_ADI": "Harici 49"
+  },
+  {
+    "ISLEM_NO": 250,
+    "ISLEM_ADI": "Harici 50"
+  },
+  {
+    "ISLEM_NO": 251,
+    "ISLEM_ADI": "Başlık Yağlama"
+  },
+  {
+    "ISLEM_NO": 252,
+    "ISLEM_ADI": "Piston Aç"
+  },
+  {
+    "ISLEM_NO": 253,
+    "ISLEM_ADI": "Piston Kapat"
+  },
+  {
+    "ISLEM_NO": 254,
+    "ISLEM_ADI": "Pim Kontrol"
+  },
+  {
+    "ISLEM_NO": 255,
+    "ISLEM_ADI": "Onaylı İşlem"
+  },
+  {
+    "ISLEM_NO": 256,
+    "ISLEM_ADI": "Kamera Kontrol"
+  },
+  {
+    "ISLEM_NO": 257,
+    "ISLEM_ADI": "Talimat"
+  },
+  {
+    "ISLEM_NO": 258,
+    "ISLEM_ADI": "Talimat Yeni"
+  },
+  {
+    "ISLEM_NO": 301,
+    "ISLEM_ADI": "Süreli İşlem"
+  },
+  {
+    "ISLEM_NO": 302,
+    "ISLEM_ADI": "Süreli İşlem 2"
+  },
+  {
+    "ISLEM_NO": 303,
+    "ISLEM_ADI": "Süreli İşlem 3"
+  },
+  {
+    "ISLEM_NO": 304,
+    "ISLEM_ADI": "Süreli İşlem 4"
+  },
+  {
+    "ISLEM_NO": 305,
+    "ISLEM_ADI": "Süreli İşlem 5"
+  },
+  {
+    "ISLEM_NO": 306,
+    "ISLEM_ADI": "Süreli İşlem 6"
+  },
+  {
+    "ISLEM_NO": 307,
+    "ISLEM_ADI": "Süreli İşlem 7"
+  },
+  {
+    "ISLEM_NO": 308,
+    "ISLEM_ADI": "Süreli İşlem 8"
+  },
+  {
+    "ISLEM_NO": 309,
+    "ISLEM_ADI": "Süreli İşlem 9"
+  },
+  {
+    "ISLEM_NO": 310,
+    "ISLEM_ADI": "Süreli İşlem 10"
+  },
+  {
+    "ISLEM_NO": 311,
+    "ISLEM_ADI": "Süreli İşlem 11"
+  },
+  {
+    "ISLEM_NO": 312,
+    "ISLEM_ADI": "Süreli İşlem 12"
+  },
+  {
+    "ISLEM_NO": 313,
+    "ISLEM_ADI": "Süreli İşlem 13"
+  },
+  {
+    "ISLEM_NO": 314,
+    "ISLEM_ADI": "Süreli İşlem 14"
+  },
+  {
+    "ISLEM_NO": 315,
+    "ISLEM_ADI": "Süreli İşlem 15"
+  },
+  {
+    "ISLEM_NO": 316,
+    "ISLEM_ADI": "Süreli İşlem 16"
+  },
+  {
+    "ISLEM_NO": 317,
+    "ISLEM_ADI": "Süreli İşlem 17"
+  },
+  {
+    "ISLEM_NO": 318,
+    "ISLEM_ADI": "Süreli İşlem 18"
+  },
+  {
+    "ISLEM_NO": 319,
+    "ISLEM_ADI": "Süreli İşlem 19"
+  },
+  {
+    "ISLEM_NO": 320,
+    "ISLEM_ADI": "Süreli İşlem 20"
+  },
+  {
+    "ISLEM_NO": 321,
+    "ISLEM_ADI": "Süreli İşlem 21"
+  },
+  {
+    "ISLEM_NO": 322,
+    "ISLEM_ADI": "Süreli İşlem 22"
+  },
+  {
+    "ISLEM_NO": 323,
+    "ISLEM_ADI": "Süreli İşlem 23"
+  },
+  {
+    "ISLEM_NO": 324,
+    "ISLEM_ADI": "Süreli İşlem 24"
+  },
+  {
+    "ISLEM_NO": 325,
+    "ISLEM_ADI": "Süreli İşlem 25"
+  },
+  {
+    "ISLEM_NO": 326,
+    "ISLEM_ADI": "Süreli İşlem 26"
+  },
+  {
+    "ISLEM_NO": 327,
+    "ISLEM_ADI": "Süreli İşlem 27"
+  },
+  {
+    "ISLEM_NO": 328,
+    "ISLEM_ADI": "Süreli İşlem 28"
+  },
+  {
+    "ISLEM_NO": 329,
+    "ISLEM_ADI": "Süreli İşlem 29"
+  },
+  {
+    "ISLEM_NO": 330,
+    "ISLEM_ADI": "Süreli İşlem 30"
+  },
+  {
+    "ISLEM_NO": 331,
+    "ISLEM_ADI": "Süreli İşlem 31"
+  },
+  {
+    "ISLEM_NO": 332,
+    "ISLEM_ADI": "Süreli İşlem 32"
+  },
+  {
+    "ISLEM_NO": 333,
+    "ISLEM_ADI": "Süreli İşlem 33"
+  },
+  {
+    "ISLEM_NO": 334,
+    "ISLEM_ADI": "Süreli İşlem 34"
+  },
+  {
+    "ISLEM_NO": 335,
+    "ISLEM_ADI": "Süreli İşlem 35"
+  },
+  {
+    "ISLEM_NO": 336,
+    "ISLEM_ADI": "Süreli İşlem 36"
+  },
+  {
+    "ISLEM_NO": 337,
+    "ISLEM_ADI": "Süreli İşlem 37"
+  },
+  {
+    "ISLEM_NO": 338,
+    "ISLEM_ADI": "Süreli İşlem 38"
+  },
+  {
+    "ISLEM_NO": 339,
+    "ISLEM_ADI": "Süreli İşlem 39"
+  },
+  {
+    "ISLEM_NO": 340,
+    "ISLEM_ADI": "Süreli İşlem 40"
+  },
+  {
+    "ISLEM_NO": 341,
+    "ISLEM_ADI": "Süreli İşlem 41"
+  },
+  {
+    "ISLEM_NO": 342,
+    "ISLEM_ADI": "Süreli İşlem 42"
+  },
+  {
+    "ISLEM_NO": 343,
+    "ISLEM_ADI": "Süreli İşlem 43"
+  },
+  {
+    "ISLEM_NO": 344,
+    "ISLEM_ADI": "Süreli İşlem 44"
+  },
+  {
+    "ISLEM_NO": 345,
+    "ISLEM_ADI": "Süreli İşlem 45"
+  },
+  {
+    "ISLEM_NO": 346,
+    "ISLEM_ADI": "Süreli İşlem 46"
+  },
+  {
+    "ISLEM_NO": 347,
+    "ISLEM_ADI": "Süreli İşlem 47"
+  },
+  {
+    "ISLEM_NO": 348,
+    "ISLEM_ADI": "Süreli İşlem 48"
+  },
+  {
+    "ISLEM_NO": 349,
+    "ISLEM_ADI": "Süreli İşlem 49"
+  },
+  {
+    "ISLEM_NO": 350,
+    "ISLEM_ADI": "Süreli İşlem 50"
+  },
+  {
+    "ISLEM_NO": 403,
+    "ISLEM_ADI": "Kamera Kontrol"
+  },
+  {
+    "ISLEM_NO": 406,
+    "ISLEM_ADI": "Lamba test"
+  }
+]

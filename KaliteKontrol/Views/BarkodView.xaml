@@ -20,30 +20,27 @@
             <Viewbox Margin="50">
                 <Grid>
                     <Border
-                    Padding="50"
-                    BorderBrush="{Binding BorderColor}"
-                    BorderThickness="15"
-                    Visibility="{Binding MessageVisibility}">
+                        Padding="50"
+                        BorderBrush="{Binding BorderColor}"
+                        BorderThickness="15"
+                        Visibility="{Binding MessageVisibility}">
                         <TextBlock
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        FontSize="44"
-                        FontWeight="Bold"
-                        Text="{Binding Mesaj}"
-                        TextWrapping="Wrap" />
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="44"
+                            FontWeight="Bold"
+                            Text="{Binding Mesaj}"
+                            TextWrapping="Wrap" />
                     </Border>
                     <StackPanel Margin="50" Visibility="{Binding ProgressVisibility}">
                         <TextBlock
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        FontSize="22"
-                        FontWeight="Bold"
-                        Text="Database kontrol ediliyor..."
-                        TextWrapping="Wrap" />
-                        <ProgressBar
-                        IsIndeterminate="{Binding DbProgress}"
-                         
-                        Value="0" />
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="22"
+                            FontWeight="Bold"
+                            Text="Database kontrol ediliyor..."
+                            TextWrapping="Wrap" />
+                        <ProgressBar IsIndeterminate="{Binding DbProgress}" Value="0" />
                     </StackPanel>
                 </Grid>
             </Viewbox>

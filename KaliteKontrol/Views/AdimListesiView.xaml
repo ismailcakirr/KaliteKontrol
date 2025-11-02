@@ -1,0 +1,183 @@
+﻿<UserControl
+    x:Class="KaliteKontrol.Views.AdimListesiView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converters="clr-namespace:KaliteKontrol.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:icons="http://metro.mahapps.com/winfx/xaml/iconpacks"
+    xmlns:local="clr-namespace:KaliteKontrol.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodels="clr-namespace:KaliteKontrol.Viewmodels"
+    xmlns:views="clr-namespace:KaliteKontrol.Views"
+    d:DataContext="{d:DesignInstance Type=viewmodels:AdimListesiViewModel}"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <Grid Background="{StaticResource DefaultBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".35*" />
+            <ColumnDefinition Width=".65*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+
+        <Border
+            Grid.RowSpan="2"
+            Grid.Column="0"
+            Margin="4"
+            Padding="8"
+            Background="{StaticResource DefaultBrush}"
+            Style="{StaticResource CustomCard}">
+            <ListBox BorderBrush="Transparent" ItemsSource="{Binding AdimList, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                <ListBox.Resources>
+                    <converters:AdimArkaBrushConverter x:Key="AdimArkaBrushConverter" />
+                    <converters:AdimOnBrushConverter x:Key="AdimOnBrushConverter" />
+                    <converters:AdimFontWeightBrushConverter x:Key="AdimFontWeightBrushConverter" />
+                </ListBox.Resources>
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+
+                        <Setter Property="Focusable" Value="False" />
+                        <Setter Property="IsHitTestVisible" Value="False" />
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                        <Setter Property="VerticalContentAlignment" Value="Center" />
+
+
+                    </Style>
+
+                </ListBox.ItemContainerStyle>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Center">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="50" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="50" />
+                            </Grid.ColumnDefinitions>
+                            <Label
+                                Grid.Column="0"
+                                Content="{Binding Adim.ADIM_NO}"
+                                Style="{StaticResource AdimListesiAdimNo}">
+
+                                <Label.Background>
+                                    <MultiBinding Converter="{StaticResource AdimArkaBrushConverter}">
+                                        <Binding Path="Adim.ADIM_NO" />
+                                        <Binding Path="DataContext.AktifAdimNo" RelativeSource="{RelativeSource AncestorType=ListBox}" />
+                                    </MultiBinding>
+                                </Label.Background>
+
+                                <Label.Foreground>
+                                    <MultiBinding Converter="{StaticResource AdimOnBrushConverter}">
+                                        <Binding Path="Adim.ADIM_NO" />
+                                        <Binding Path="DataContext.AktifAdimNo" RelativeSource="{RelativeSource AncestorType=ListBox}" />
+                                    </MultiBinding>
+                                </Label.Foreground>
+
+                                <Label.FontWeight>
+                                    <MultiBinding Converter="{StaticResource AdimFontWeightBrushConverter}">
+                                        <Binding Path="Adim.ADIM_NO" />
+                                        <Binding Path="DataContext.AktifAdimNo" RelativeSource="{RelativeSource AncestorType=ListBox}" />
+                                    </MultiBinding>
+                                </Label.FontWeight>
+
+                            </Label>
+
+                            <!--
+                                FontWeight="{Binding YaziKalinligi}"
+                                Foreground="{Binding YaziRengi}"
+                                Background="{Binding ArkaPlanRengi}"
+                            -->
+
+                            <!--
+                                Background="{Binding ArkaPlanRengi}"
+                                
+                                FontWeight="{Binding YaziKalinligi}"
+                                Foreground="{Binding YaziRengi}"
+                            -->
+
+                            <Label
+                                Grid.Column="1"
+                                Content="{Binding Adim.ISLEM_ADI}"
+                                Style="{StaticResource AdimListesiIslemAdi}">
+
+
+
+                                <Label.Background>
+                                    <MultiBinding Converter="{StaticResource AdimArkaBrushConverter}">
+                                        <Binding Path="Adim.ADIM_NO" />
+                                        <Binding Path="DataContext.AktifAdimNo" RelativeSource="{RelativeSource AncestorType=ListBox}" />
+                                    </MultiBinding>
+                                </Label.Background>
+
+                                <Label.Foreground>
+                                    <MultiBinding Converter="{StaticResource AdimOnBrushConverter}">
+                                        <Binding Path="Adim.ADIM_NO" />
+                                        <Binding Path="DataContext.AktifAdimNo" RelativeSource="{RelativeSource AncestorType=ListBox}" />
+                                    </MultiBinding>
+                                </Label.Foreground>
+
+                                <Label.FontWeight>
+                                    <MultiBinding Converter="{StaticResource AdimFontWeightBrushConverter}">
+                                        <Binding Path="Adim.ADIM_NO" />
+                                        <Binding Path="DataContext.AktifAdimNo" RelativeSource="{RelativeSource AncestorType=ListBox}" />
+                                    </MultiBinding>
+                                </Label.FontWeight>
+
+                            </Label>
+                            <icons:PackIconMaterial
+                                Grid.Column="2"
+                                Width="36"
+                                Height="36"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Kind="{Binding AdimDurumKind}" />
+
+                        </Grid>
+                    </DataTemplate>
+
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Border>
+        <Border
+            Grid.Column="1"
+            Margin="4"
+            Padding="8"
+            Background="{StaticResource DefaultBrush}"
+            Style="{StaticResource CustomCard}">
+            <!--<MediaElement Name="picturebox"
+                   Source="{Binding AktifAdim.Adim.ResimYolu}" />-->
+            <!--<Image Source="{Binding AktifResim}" Stretch="UniformToFill" />-->
+            <TextBlock
+                FontSize="36"
+                Foreground="Red"
+                Text="{Binding AktifAdimNo}" />
+
+        </Border>
+        <Border
+            Grid.Row="1"
+            Grid.Column="1"
+            Margin="4"
+            Background="{StaticResource DefaultBrush}"
+            Style="{StaticResource CustomCard}">
+            <StackPanel Orientation="Horizontal">
+                <Button
+                    Background="{StaticResource PrimaryColorBrush}"
+                    Command="{Binding AdimAtlaCommand}"
+                    Content="Adımı Atla"
+                    Style="{StaticResource CustomButton}" />
+
+                <Button
+                    Background="{StaticResource PrimaryColorBrush}"
+                    Command="{Binding SayfaDegisCommand}"
+                    Content="Sayfa Değiş"
+                    Style="{StaticResource CustomButton}" />
+
+
+            </StackPanel>
+
+        </Border>
+
+    </Grid>
+</UserControl>

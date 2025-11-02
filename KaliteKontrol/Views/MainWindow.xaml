@@ -25,6 +25,14 @@
             <views:BarkodView />
         </DataTemplate>
 
+        <DataTemplate DataType="{x:Type viewmodels:AdimListesiViewModel}">
+            <views:AdimListesiView />
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type viewmodels:KameraViewModel}">
+            <views:KameraView />
+        </DataTemplate>
+
         <Storyboard x:Key="SlideOnLoad">
 
 
@@ -88,6 +96,7 @@
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
                         FontSize="24"
+                        FontWeight="Bold"
                         Foreground="{StaticResource DefaultBrush}"
                         Text="{Binding CurrentPage.PageName}" />
 
@@ -102,17 +111,110 @@
                 </Grid>
             </Border>
 
-            <Border Margin="4" Background="{StaticResource DefaultBrush}" Grid.Row="1" Style="{StaticResource CustomCard}">
-                <ContentControl Content="{Binding CurrentPage}" />
+            <Border
+                Grid.Row="1"
+                Margin="4"
+                Background="{StaticResource DefaultBrush}"
+                Style="{StaticResource CustomCard}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <ContentControl Content="{Binding CurrentPage}" Visibility="{Binding ShowContent}" />
+                    <StackPanel
+                        Width="340"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FocusManager.FocusedElement="{Binding ElementName=txtPassword}"
+                        Visibility="{Binding ShowLogin}">
+
+                        <Border
+                            Margin="4"
+                            Background="{StaticResource DefaultBrush}"
+                            Style="{StaticResource CustomCard}">
+                            <StackPanel VerticalAlignment="Center">
+                                <TextBlock
+                                    Margin="2"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    FontSize="22"
+                                    Text="Önce Giriş Yapmalısınız." />
+                                <DockPanel Margin="10">
+                                    <TextBlock
+                                        Width="100"
+                                        Margin="0,0,0,0"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        DockPanel.Dock="Left"
+                                        FontSize="18"
+                                        FontWeight="Bold"
+                                        Text="Kullanıcı:"
+                                        TextAlignment="Center" />
+                                    <ComboBox
+                                        DisplayMemberPath="KullaniciAdi"
+                                        FontSize="18"
+                                        ItemsSource="{Binding Kullanicilar}"
+                                        SelectedItem="{Binding SeciliKullanici}" />
+                                </DockPanel>
+                                <DockPanel Margin="10">
+                                    <TextBlock
+                                        Width="100"
+                                        Margin="0,0,0,0"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        DockPanel.Dock="Left"
+                                        FontSize="18"
+                                        FontWeight="Bold"
+                                        Text="Şifre:"
+                                        TextAlignment="Center" />
+                                    <PasswordBox
+                                        Name="txtPassword"
+                                        VerticalAlignment="Top"
+                                        FontSize="18"
+                                        FontWeight="Bold" />
+                                </DockPanel>
+                                <TextBlock
+                                    HorizontalAlignment="Center"
+                                    FontSize="18"
+                                    FontWeight="Bold"
+                                    Foreground="Red"
+                                    Text="Şifre Hatalı!"
+                                    Visibility="{Binding UyariGoster}" />
+
+                                <StackPanel
+                                    Grid.Column="2"
+                                    Margin="0,10,0,0"
+                                    HorizontalAlignment="Right"
+                                    Orientation="Horizontal">
+                                    <Button
+                                        Width="100"
+                                        Margin="10"
+                                        Background="Lime"
+                                        Command="{Binding LoginCommand}"
+                                        CommandParameter="{Binding ElementName=txtPassword}"
+                                        Content="Giriş"
+                                        IsDefault="True"
+                                        Style="{StaticResource CustomButton}" />
+                                </StackPanel>
+
+                            </StackPanel>
+
+
+                        </Border>
+
+
+                    </StackPanel>
+                </Grid>
+
 
             </Border>
 
             <Border
-     Grid.Row="2"
-     Margin="4"
-     Padding="8"
-     Background="{StaticResource DefaultBrush}"
-     Style="{StaticResource CustomCard}">
+                Grid.Row="2"
+                Margin="4"
+                Padding="8"
+                Background="{StaticResource DefaultBrush}"
+                Style="{StaticResource CustomCard}">
 
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -126,7 +228,7 @@
                         <Ellipse Fill="{Binding SqlDurum}" Style="{StaticResource BaglantilarEllipse}" />
 
                         <TextBlock Style="{StaticResource Baglantilar}" Text="PLC:" />
-                        <Ellipse Fill="{Binding PlcDurum}" Style="{StaticResource BaglantilarEllipse}" />
+                        <Ellipse Fill="{Binding PLCDurum}" Style="{StaticResource BaglantilarEllipse}" />
 
                         <TextBlock Style="{StaticResource Baglantilar}" Text="COM:" />
                         <Ellipse Fill="{Binding ComDurum}" Style="{StaticResource BaglantilarEllipse}" />
@@ -135,24 +237,24 @@
                         <Ellipse Fill="{Binding KameraDurum}" Style="{StaticResource BaglantilarEllipse}" />
 
                         <Rectangle
-                 Width="1"
-                 Margin="5,0,0,0"
-                 Fill="LightGray" />
+                            Width="1"
+                            Margin="5,0,0,0"
+                            Fill="LightGray" />
 
                         <TextBlock Style="{StaticResource Baglantilar}" Text="Son okunan barkod: " />
                         <TextBox
-                 x:Name="txtBarkod"
-                 Width="200"
-                 HorizontalAlignment="Stretch"
-                 VerticalAlignment="Stretch"
-                 BorderThickness=".5"
-                 FontSize="16"
-                 Text="{Binding SonOkunanBarkod}">
+                            x:Name="txtBarkod"
+                            Width="200"
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Stretch"
+                            BorderThickness=".5"
+                            FontSize="16"
+                            Text="{Binding SonOkunanBarkod}">
                             <TextBox.InputBindings>
                                 <KeyBinding
-                         Key="Enter"
-                         Command="{Binding Path=BarkodOkutCommand}"
-                         CommandParameter="{Binding ElementName=txtBarkod, Path=Text}" />
+                                    Key="Enter"
+                                    Command="{Binding Path=BarkodOkutCommand}"
+                                    CommandParameter="{Binding ElementName=txtBarkod, Path=Text}" />
                             </TextBox.InputBindings>
                         </TextBox>
 
@@ -163,7 +265,7 @@
 
 
                     </StackPanel>
-                  
+
 
                 </Grid>
 

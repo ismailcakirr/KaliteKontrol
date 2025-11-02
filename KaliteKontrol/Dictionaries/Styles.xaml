@@ -51,5 +51,72 @@
         <Setter Property="Margin" Value="10,0,0,0" />
     </Style>
 
+    <Style x:Key="CustomButton" TargetType="Button">
+        <!--<Setter Property="Background" Value="{StaticResource PrimaryColorBrush}" />-->
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Margin" Value="5" />
+        <Setter Property="Padding" Value="20,10" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border
+                        x:Name="border"
+                        Padding="10,2"
+                        Background="{TemplateBinding Background}"
+                        CornerRadius="5">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <!--  Hover  -->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="ForestGreen" />
+                        </Trigger>
+                        <!--  Basılıyken  -->
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="PaleGreen" />
+                        </Trigger>
+                        <!--  Disable  -->
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="border" Property="Background" Value="Gray" />
+                            <Setter Property="Foreground" Value="DarkGray" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="AdimListesiIslemAdi" TargetType="Label">
+        <Setter Property="VerticalAlignment" Value="Stretch" />
+        <Setter Property="Height" Value="50" />
+        <Setter Property="HorizontalAlignment" Value="Stretch" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="Margin" Value="1" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="BorderThickness" Value="2" />
+        <Setter Property="BorderBrush" Value="LightGray" />
+    </Style>
+    <Style x:Key="AdimListesiAdimNo" TargetType="Label">
+        <Setter Property="Width" Value="50" />
+        <Setter Property="Height" Value="50" />
+
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="Margin" Value="1" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="BorderThickness" Value="2" />
+        <Setter Property="BorderBrush" Value="LightGray" />
+
+    </Style>
+
 
 </ResourceDictionary>
